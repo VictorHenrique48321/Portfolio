@@ -1,0 +1,21 @@
+.main {
+  height: 100vh;
+  background-color: #dce1e7;
+}
+
+.main_content {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main_content_info {
+  width: 900px;
+  max-width: 900px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.main_content_section  {
+  margin-top: 3.5rem;
+}

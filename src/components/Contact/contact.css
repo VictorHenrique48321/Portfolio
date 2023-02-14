@@ -1,0 +1,16 @@
+.contact_title {
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+
+.contact_text {
+  line-height: 1.5rem;
+}
+
+.contact_text b {
+  font-weight: bold;
+}
+
+.info {
+  padding-left: 2rem;
+}
