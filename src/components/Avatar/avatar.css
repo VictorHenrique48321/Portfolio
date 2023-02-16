@@ -1,10 +1,10 @@
 .avatar {
   margin-top: -10rem;
   background-color: white;
-  width: 300px;
-  height: 500px;
+  width: 400px;
+  height: fit-content;
   padding: 15px;
-  border: 1px solid black;
+  box-shadow: 1px 1px 5px 0px black;  
   border-radius: 10px;
 }
 
@@ -30,13 +30,65 @@
 }
 
 .avatar_info_title {
-  font-size: 16px;
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.avatar_resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 45px;
+  background-color: #7A3CED;
+  color: white;
+  text-decoration: none;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+.avatar_info_social {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar_info_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: #EDE9FE;
+  border-radius: 5px;
+}
+
+.avatar_info_icon:first-child {
+  margin-right: .5rem;
+}
+
+.avatar_info_icon:hover {
+  cursor: pointer;
+  background-color: #7A3CED;
+}
+
+.avatar_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar_info_icon_social {
+  height: 16px;
+  width: 16px;
+  margin: .2rem;
 }
 
 .avatar_description_about {
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .avatar_description_text {
-  line-height: 22px;
+  line-height: 1.5rem;
+  color: #9CA3AF;
 }

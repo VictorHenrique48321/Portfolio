@@ -1,6 +1,6 @@
 .main {
   height: 100vh;
-  background-color: #dce1e7;
+  background-color: #F9FAFB;
 }
 
 .main_content {
@@ -12,10 +12,9 @@
 .main_content_info {
   width: 900px;
   max-width: 900px;
-  margin-left: 2rem;
-  margin-top: 0.5rem;
+  margin-left: 3.5rem;
 }
 
 .main_content_section  {
-  margin-top: 3.5rem;
+  margin-top: 1.5rem;
 }

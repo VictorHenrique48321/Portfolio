@@ -1,12 +1,27 @@
 .about_title {
   font-size: 22px;
   margin-bottom: 1rem;
-}
-
-.about_text {
-  font-size: 18px;
+  font-weight: 700;
 }
 
 .about_skills {
   margin-top: 2rem;
+}
+
+.about_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_text {
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: #9CA3AF;
+}
+
+.about_text_skill {
+  font-size: 16px;
+  flex: 1 0 21%;
+  margin: 5px;
+  color: #9CA3AF;
 }

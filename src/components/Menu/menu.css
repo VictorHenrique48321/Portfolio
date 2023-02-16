@@ -1,7 +1,8 @@
 .bar {
   border-radius: 10px;
-  border: 1px solid black;
+  box-shadow: 1px 1px 5px black;
   background-color: white;
+  height: 50px;
 }
 
 .bar_menu {
@@ -18,7 +19,7 @@
 }
 
 .currentLink { 
-  color: blue
+  color: #7C3AED
 }
 
 .notActive {
