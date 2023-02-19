@@ -11,23 +11,23 @@ const Projects = () => {
       <div className="projects_layout">
         <div className="projects_project">
           <img className="projects_project_image" src={projectOne} alt="" />
-          <p>title</p>
-          <p>description</p>
+          <p className="projects_project_title">Localização de de veículos com leaflet</p>
+          <p className="projects_project_description">Com os dados mostro o histórico de posições, estado e localização atual do equipamentos</p>
         </div>
         <div className="projects_project">
           <img className="projects_project_image" src={projectTwo} alt="" />
-          <p>title</p>
-          <p>description</p>
+          <p className="projects_project_title">Um site de benchmark com pontuações</p>
+          <p className="projects_project_description">Uma SPA com seis diferentes testes, que após finalizá los você receberá uma pontuação baseada em sua performance</p>
         </div>
         <div className="projects_project">
           <img className="projects_project_image" src={projectThree} alt="" />
-          <p>title</p>
-          <p>description</p>
+          <p className="projects_project_title">Jogo inspirado no letroca</p>
+          <p className="projects_project_description">Você recebe letras aleatórias e precisa formar o maior número de palavras antes que o tempo se esgote</p>
         </div>
         <div className="projects_project">
           <img className="projects_project_image" src={projectFour} alt="" />
-          <p>title</p>
-          <p>description</p>
+          <p className="projects_project_title">Artigos sobre o espaço com spaceflight API</p>
+          <p className="projects_project_description">Site de artigo utilizando spaceflight, na qual você tem opções de busca, paginação, filtros e aumentar a quantidade de artigos por página</p>
         </div>
       </div>
     </div>

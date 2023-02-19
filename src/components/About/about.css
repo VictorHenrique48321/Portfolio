@@ -25,3 +25,15 @@
   margin: 5px;
   color: #9CA3AF;
 }
+
+@media screen and (max-width: 600px) {
+  
+  .about_skills {
+    margin-bottom: 2rem;
+  }
+
+  .about_section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

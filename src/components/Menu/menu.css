@@ -18,10 +18,47 @@
   text-decoration: none;
 }
 
+.bar_menu p {
+  font-weight: 600;
+}
+
 .currentLink { 
   color: #7C3AED
 }
 
 .notActive {
   color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .bar {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    width: 90%;
+    margin: 2rem auto 0 auto;
+  }
+
+  .bar_menu {
+    justify-content: space-around;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  .bar_menu {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .bar_menu {
+    width: 600px;
+  }
+
 }

@@ -7,13 +7,15 @@
 .projects_project {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 40%;
-  height: 200px;
-  padding: 2rem;
+  width: 45%;
+  padding: .5rem 1rem;
   border-radius: 10px;
   background-color: white;
-  margin-bottom: 1.5rem;
+  box-shadow: 0 0 5px #9ca3af;
+}
+
+.projects_project:nth-child(-n+2) {
+  margin-bottom: 1rem;
 }
 
 .projects_project:hover {
@@ -21,6 +23,18 @@
 }
 
 .projects_project_image {
-  width: 300px;
+  width: 100%;
   height: 200px;
+}
+
+.projects_project_title {
+  font-size: 18px;
+  color: #1F2937;
+  margin: .5rem 0;
+}
+
+.projects_project_description {
+  font-size: 16px;
+  color: #9CA3AF;
+  font-weight: 400;
 }

@@ -1,20 +1,52 @@
-.main {
-  height: 100vh;
-  background-color: #F9FAFB;
-}
-
 .main_content {
-  width: 70vw;
-  margin: 0 auto;
   display: flex;
 }
 
 .main_content_info {
-  width: 900px;
   max-width: 900px;
-  margin-left: 3.5rem;
 }
 
 .main_content_section  {
   margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .main_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main_content_info {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  .main_content {
+    width: auto;
+    margin-left: 1rem;
+  }
+
+  .main_content_info {
+    width: 100%;
+    margin: 1rem 1rem;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .main_content {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .main_content_info {
+    width: 900px;
+    margin-left: 3.5rem;
+  }
 }

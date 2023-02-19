@@ -4,8 +4,9 @@ import About from "./components/About/About"
 import Avatar from "./components/Avatar/Avatar"
 import Menu from "./components/Menu/Menu"
 import Projects from "./components/Projects/Projects"
-import "./app.css"
 import Contact from "./components/Contact/Contact"
+
+import "./app.css"
 
 function App() {
   return (
